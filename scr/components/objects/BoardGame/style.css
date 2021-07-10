@@ -1,0 +1,8 @@
+.board-game {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-cardinal);
+    height: 608px;
+}
