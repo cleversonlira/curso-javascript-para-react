@@ -1,5 +1,7 @@
+import './style.css';
+
 function PlayerName(playerName) {
-    return `<p>Player ${playerName}</p>`;
+    return `<p class="player-name">Player ${playerName}</p>`;
 }
 
 export default PlayerName;
