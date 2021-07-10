@@ -7,7 +7,7 @@ function BoardGame(amountCards) {
     for (let index = 0; index < amountCards; index++) {
         $cardGame += CardGame();
     }
-    return `<section class="board-game">${$cardGame}</section>`;
+    return /*html*/ `<section class="board-game">${$cardGame}</section>`;
 }
 
 export default BoardGame;
